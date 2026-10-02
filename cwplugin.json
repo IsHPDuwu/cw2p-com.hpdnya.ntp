@@ -5,7 +5,7 @@
   "api_version": ">=0.6.0",
   "entry": "main.py",
   "author": "IsHPDuwu",
-  "description": "使用 NTP 自动校正课表偏移，不修改系统时间",
+  "description": "使用 NTP 自动校正课表偏移",
   "readme": "README.md",
   "url": "https://github.com/IsHPDuwu/cw2p-com.hpdnya.ntp",
   "icon": "icon.png"

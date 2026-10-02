@@ -7,7 +7,7 @@ import ClassWidgets.Plugins
 PluginPage {
     id: root
     pluginId: "com.hpdnya.ntp"
-    title: "NTP 课表校时"
+    title: "NTP 校时"
     property var state: ({})
     function refresh() { if (backend) state = backend.snapshot() }
     Component.onCompleted: refresh()
@@ -15,11 +15,7 @@ PluginPage {
         target: backend
         function onChanged() { root.refresh() }
     }
-    Text {
-        Layout.fillWidth: true
-        wrapMode: Text.WordWrap
-        text: "仅校正课表运行时间，不修改系统时间或界面时钟。正偏移使课表时间提前，负偏移使其延后。"
-    }
+
     SettingCard {
         Layout.fillWidth: true
         title: "接管课表偏移"
