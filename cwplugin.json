@@ -1,6 +1,6 @@
 {
   "id": "com.hpdnya.ntp",
-  "name": "NTP 校准时间偏移",
+  "name": "NTP 校时",
   "version": "1.0.0",
   "api_version": ">=0.6.0",
   "entry": "main.py",
